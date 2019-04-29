@@ -1,5 +1,58 @@
-#container {
-    position: relative; 
-    width: 900px; 
-    height: 600px;
+#pollution-map {
+    position: fixed;
+    width: 900px;
+    height: 550px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
+.form-group .form-control {
+    background-color: lightgrey;
+}
+
+.form-group .form-control option {
+    background-color: lightgrey;
+}
+
+.form-group .form-control:focus {
+    background-color: lightgrey;
+}
+
+@media (max-width: 990px) {
+    #pollution-map {
+        width: 750px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 825px) {
+    #pollution-map {
+        width: 650px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 660px) {
+    #pollution-map {
+        width: 550px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 515px) {
+    #pollution-map {
+        width: 450px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 440px) {
+    #pollution-map {
+        width: 380px;
+        height: 250px;
+    }
 }
