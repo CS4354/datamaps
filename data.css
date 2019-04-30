@@ -1,7 +1,7 @@
 #pollution-map {
-    position: fixed;
+    position: relative;
     width: 900px;
-    height: 550px;
+    height: 450px;
 }
 
 h1 {
