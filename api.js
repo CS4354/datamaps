@@ -18,7 +18,7 @@ $(function () {
               data[i].name = "testing";
             }
   
-            // console.log(data[1]);
+            console.log(data[1]);
             // const dataArray = Object.values(data);
             map.bubbles(data, {
               bubblesConfig: {

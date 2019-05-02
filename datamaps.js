@@ -15,7 +15,7 @@ var customResize = function () {
     map.labels({
       fontSize: 6
     });
-  } else if (("(max-width: 660px)").matches) {
+  } else if (window.matchMedia("(max-width: 660px)").matches) {
     map.resize();
     map.labels({
       fontSize: 8
